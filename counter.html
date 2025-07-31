@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background:linear-gradient(to right ,lightblue, lightcoral);
+            text-align: center;
+           
+        }
+        textarea{ 
+            background-color: whitesmoke;
+           text-align: center;
+           padding: 50px;
+           border: 5px solid gray;
+           border-radius: 50px;
+        }
+        button{
+            padding: 20px; 
+            width: 100px;
+            border-radius: 40px;
+            font-size: large;
+            border: 3px solid black;
+            background: linear-gradient(to right, lightcoral,white ,lightblue);
+        }
+        #display.red{
+            background:linear-gradient(to right, green, violet,blue);
+        }
+    </style>
+</head>
+<body>
+    <h1>Counter</h1>
+   <textarea rows="5" cols="20" id="display" >0</textarea><br>
+   <button onclick="increase()">+</button>
+   <button onclick="decrease()">-</button>
+       <script src="./counter.js"></script>
+</body>
+</html>
